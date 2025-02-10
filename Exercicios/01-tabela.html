@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela Colorida</title>
+  <style>
+    .verduras {
+      background-color: green;
+      color: white;
+    }
+
+    .tipos {
+      color: white;
+      background-color: cyan;
+    }
+
+    #coluna {
+      background-color: blueviolet;
+      color: aqua;
+    }
+
+    #linhas {
+      background-color: blueviolet;
+      color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <table border="2px">
+    <thead>
+      <th class="verduras">Frutas</th>
+      <th class="verduras">Verduras</th>
+      <th class="verduras">Grãos</th>
+      <th>...</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tipos">Maça</td>
+        <td class="tipos">Alface</td>
+        <td class="tipos">Arroz</td>
+        <td id="linhas" rowspan="3">3 Linhas</td>
+      </tr>
+      <tr>
+        <td class="tipos">Laranja</td>
+        <td class="tipos">Beterraba</td>
+        <td class="tipos">Trigo</td>
+      </tr>
+      <tr>
+        <td id="coluna" colspan="3">3 Colunas</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
