@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #login {
+      width: 200px;
+      height: 230px;
+      margin: 200px auto;
+      background: wheat;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    #login img {
+      padding-top: 20px;
+      height: 40px;
+      border-radius: 4px 4px;
+    }
+
+    #login h3 {
+      color: white;
+    }
+
+    #btn-login{
+      margin-top: 20px;
+      background-color: greenyellow;
+      height: 30px;
+      width: 50px;
+      color: grey;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="login">
+    <img src="/imagens/shiba.jpg" alt="cachorro">
+    <h3>Efetue login</h3>
+    <label for="nome">Nome</label>
+    <input placeholder="José" id="nome" type="text">
+    <label for="senha">Senha</label>
+    <input placeholder="*******" type="password" id="senha">
+    <input id="btn-login" type="submit" value="login">
+  </div>
+</body>
+
+</html>
